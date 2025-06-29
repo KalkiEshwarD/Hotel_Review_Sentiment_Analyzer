@@ -1,0 +1,501 @@
+Review_Number,Overall_Sentiment,Service_1,Sentiment_1,Review_of_1,Service_2,Sentiment_2,Review_of_2
+1,Positive,Room Quality,Positive,"""The room was immaculate and the view was breathtaking.""",Check-in/Check-out,Negative,"""However, the check-in process was disappointingly slow."""
+2,Positive,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the dining experience and food service.,Service,Positive,"""Room service was prompt and the food quality exceeded our expectations."""
+3,Neutral,,,,,,
+4,Positive,Service,Positive,"""The concierge team offered fantastic local recommendations. Their advice made our trip much more enjoyable.""",,,
+5,Neutral,Room Quality,Neutral,There is no mention of room quality in this review. It focuses solely on the gym and pool facilities.,Facilities,Neutral,"""We found the gym facilities to be state-of-the-art and well-maintained. The pool area, conversely, felt crowded."""
+6,Negative,Room Quality,Negative,"""Our primary issue was the unreliable Wi-Fi signal in the room. It was nearly impossible to hold a video call.""",,,
+7,Positive,Service,Positive,"""Staff members were universally courteous and professional. Their warm hospitality was the highlight of our stay.""",,,
+8,Positive,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the breakfast buffet.,Dining,Positive,"""The breakfast buffet offered a spectacular variety of options, catering to all dietary needs. Excellent quality overall."""
+9,Negative,Room Quality,Negative,"""The mattress was uncomfortably firm, leading to a poor night's sleep.""",,,
+10,Neutral,Facilities,Positive,"""The spa treatment was wonderfully relaxing"" (This implies a positive experience with the spa, which is considered part of the hotel's facilities.)",Check-in/Check-out,Negative,"""The billing at checkout contained several errors."""
+11,Negative,Room Quality,Negative,"""The decor felt quite dated and is in dire need of a modernization.""",,,
+12,Negative,Room Quality,Negative,"The amenities did not justify the high room rate, implying a disconnect between cost and what was provided within the room itself.",Value,Negative,"""For the price we paid, the overall value felt lacking. The amenities did not justify the high room rate."""
+13,Positive,Service,Positive,"""The efficiency of the valet service was impressive. We never had to wait long for our car.""",,,
+14,Neutral,Room Quality,Positive,"""The blackout curtains were fantastic, ensuring a completely dark room for sleeping."" (While the air conditioning was noted, the positive comment about the curtains significantly contributes to a positive perception of room quality.)",,,
+15,Negative,Dining,Negative,"""We were disappointed by the limited vegetarian options in the main restaurant. The poolside bar had a better selection.""",Facilities,Neutral,"""The poolside bar had a better selection."" (This refers to the facilities – specifically, the bar – without expressing positive or negative sentiment directly.)"
+16,Positive,,,,,,
+17,Positive,Service,Positive,"""Check-out was a breeze with the express service. We appreciated the efficiency...""",Check-in/Check-out,Positive,"""Check-out was a breeze with the express service. We appreciated the efficiency after a long stay."""
+18,Neutral,Room Quality,Positive,"""On a positive note, the bed linens were of a very high, luxurious quality.""",,,
+19,Positive,Service,Neutral,"The review doesn't explicitly mention ""service"" but alludes to it through the ""complimentary evening cookies were a lovely touch."" This suggests a positive aspect of service – providing thoughtful amenities. However, it’s not direct praise of staff interaction or assistance.",Facilities,Positive,"""The family-friendly pool was a huge hit with our children."""
+20,Negative,Room Quality,Neutral,"""The in-room safe was thankfully easy to operate."" This comment touches on a feature *within* the room, but doesn't offer an overall assessment of room quality beyond that specific amenity.",,,
+21,Positive,Service,Positive,"""Printing services were surprisingly affordable."" This implies a positive experience with the service provided, specifically regarding cost.",Value,Positive,"""Printing services were surprisingly affordable."""
+22,Negative,Room Quality,Negative,"""Our room had a persistent musty odor that the staff was unable to resolve.""",Service,Negative,"""The staff was unable to resolve"" the issue with the room's musty odor."
+23,Positive,Check-in/Check-out,Positive,"""The welcome drink upon arrival was a refreshing and appreciated gesture. It set a positive tone for our visit."" (This refers to the check-in experience.)",,,
+24,Negative,Room Quality,Negative,"""Soundproofing between rooms is poor. We could clearly hear conversations from the adjacent room.""",,,
+25,Positive,Service,Neutral,"There is no mention of ""Service"" in this review. It focuses solely on the hotel's sustainability efforts and toiletries.",,,
+26,Negative,,,,,,
+27,Neutral,Room Quality,Negative,"""The lighting in the bathroom was too dim for getting ready.""",,,
+28,Neutral,Service,Positive,"""The staff did their best to find us a spot.""",Facilities,Negative,"""Booking a spa appointment was difficult as they were consistently full."""
+29,Positive,Room Quality,Neutral,The review makes absolutely no mention of room quality whatsoever. It focuses solely on the rooftop bar and its view.,Value,Neutral,"""The view from the rooftop bar is absolutely spectacular, justifying the premium drink prices."" This implies the price isn't necessarily a *bargain*, but acceptable given the quality of the experience. It doesn’t explicitly praise or criticize value."
+30,Neutral,,,,,,
+31,Neutral,Room Quality,Negative,"""Housekeeping was inconsistent; our room was missed one day.""",Service,Positive,"""The front desk was apologetic and offered a service credit."""
+32,Positive,,,,,,
+33,Negative,Room Quality,Negative,"""The coffee maker in the room was a low-quality model and leaked.""",,,
+34,Positive,Room Quality,Neutral,There is no mention of room quality in this review. The entire focus is on the Kids' Club and staff.,Service,Positive,"""Staff at the Kids' Club were energetic and kept our children happily engaged. We felt very comfortable leaving them."""
+35,Neutral,,,,,,
+36,Positive,Service,Positive,"""The laundry service was prompt and our clothes were returned perfectly pressed. The cost was reasonable for the convenience.""",Value,Positive,"""The cost was reasonable for the convenience."""
+37,Negative,Room Quality,Neutral,There is no mention of room quality in this review. The entire focus is on the billing and front desk service.,,,
+38,Positive,Room Quality,Positive,"""The quality of in-room dining was a pleasant surprise. The club sandwich was particularly delicious and well-made.""",,,
+39,Negative,Service,Negative,"""Service was slow and a bit chaotic.""",Dining,Negative,"""The hotel felt understaffed, especially in the restaurant during breakfast. Service was slow and a bit chaotic."""
+40,Positive,Dining,Neutral,There is no mention of dining in this review. It focuses solely on the pillow menu and sleep comfort.,,,
+41,Negative,Service,Negative,"The review doesn't directly mention ""service"" but implies a negative experience related to it through the difficulty encountered with the hotel’s mobile app and reservation process. This suggests issues with the support or systems designed to assist guests.",,,
+42,Positive,Service,Positive,"""The doormen were always cheerful and helpful, providing a great first and last impression of the hotel.""",,,
+43,Negative,Room Quality,Negative,"""There were not enough power outlets near the bed for charging devices. A common but annoying oversight in modern hotels.""",,,
+44,Neutral,Dining,Negative,"""The themed dinner night was a fun concept, but the execution and food quality were mediocre at best.""",,,
+45,Positive,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the pet-friendly amenities and treatment of their dog.,Service,Positive,"""Our dog was treated like a VIP, which we greatly appreciated."" This implies excellent and personalized service towards the pet (and by extension, the guests)."
+46,Neutral,Room Quality,Negative,"""The room felt smaller than advertised in the pictures online. It was clean and functional, just a bit cramped.""",,,
+47,Positive,,,,,,
+48,Positive,Room Quality,Neutral,"The review does not mention room quality directly. It focuses solely on the turndown service, a separate amenity.",Service,Positive,"""The turndown service was a delightful luxury that made us feel pampered each evening."""
+49,Positive,Service,Positive,"""Booking one was a simple process via the concierge.""",,,
+50,Positive,,,,,,
+51,Positive,Room Quality,Positive,"""The temperature control in the room was very effective and maintained a comfortable climate throughout our stay.""",,,
+52,Neutral,Service,Positive,"""The hotel car service was pristine and professional...""",Value,Negative,"""The hotel car service was significantly more expensive than local ride-sharing options."""
+53,Positive,,,,,,
+54,Neutral,Value,Negative,"""The prices were inflated"" - This directly implies a lack of value, suggesting the items were not worth what was being charged.",,,
+55,Positive,Room Quality,Positive,"""The quietness of the room was remarkable. Despite being in a busy area, we heard no external noise."" (This implies good soundproofing and therefore contributes positively to room quality.)",,,
+56,Negative,,,,,,
+57,Positive,Room Quality,Positive,"""The ergonomic chair at the work desk was a thoughtful touch and very comfortable for long periods of work."" (This implies good quality furniture within the room, contributing to overall room quality.)",,,
+58,Neutral,Room Quality,Negative,"While not directly describing the room itself, the repeated key card deactivation suggests issues with the room's locking mechanism or electronic access system, impacting overall room quality and guest experience.",Service,Positive,"""The front desk staff were patient in helping us each time."""
+59,Positive,Dining,Positive,"""The freshness and quality of the seafood at the main restaurant were exceptional.""",,,
+60,Negative,Facilities,Negative,"""The pool was closed for maintenance for one full day of our stay without prior notice, which was a major disappointment.""",,,
+61,Positive,Service,Positive,"""The staff's ability to remember our names and preferences was truly impressive and showed a high level of training.""",,,
+62,Negative,Room Quality,Negative,"""The bathroom layout was awkward, with very little counter space for toiletries.""",Facilities,Negative,"""The bathroom layout was awkward, with very little counter space for toiletries."""
+63,Neutral,Dining,Negative,"""The complimentary breakfast ended too early on weekends. Extending the hours would be a great improvement.""",,,
+64,Negative,Room Quality,Neutral,"The review does not mention room quality directly. It focuses on the hotel's overall atmosphere, describing it as ""corporate"" and lacking warmth or character, but doesn’t comment on the condition, cleanliness, or features of the rooms themselves.",,,
+65,Positive,Service,Positive,"""The concierge managed to secure us a last-minute reservation at a very popular restaurant. Their connections are invaluable.""",Dining,Positive,"""The concierge managed to secure us a last-minute reservation at a very popular restaurant. Their connections are invaluable."""
+66,Negative,Room Quality,Negative,"""Our 'ocean view' room had only a sliver of a view, partially obstructed by another building. A bit misleading.""",,,
+67,Negative,Check-in/Check-out,Negative,"""The hotel's policy on late check-out was very inflexible, even for loyalty program members.""",,,
+68,Positive,,,,,,
+69,Positive,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the jogging path amenity.,,,
+70,Neutral,Room Quality,Neutral,"The review does not directly address room quality. It mentions the room service menu, which is a related but separate aspect of the hotel experience.",Service,Negative,"""The room service menu has not changed in years. It could use an update with more contemporary dishes."""
+71,Positive,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the cleanliness of elevators and common hallways.,,,
+72,Neutral,Service,Positive,"""The staff handled it professionally with good communication.""",,,
+73,Positive,,,,,,
+74,Negative,Service,Negative,"""The on-site ATM was out of service for our entire stay, which was an inconvenience."" (While not directly mentioning staff interaction, the lack of a working ATM impacts the overall guest experience and can be interpreted as a failure in providing expected services.)",,,
+75,Positive,Room Quality,Negative,"""Our initial room had a maintenance issue...""",Service,Positive,"""The staff demonstrated excellent problem-solving skills when our initial room had a maintenance issue, moving us quickly."""
+76,Neutral,Room Quality,Neutral,There is no mention of room quality in this review. It focuses solely on the club lounge and its offerings.,Facilities,Negative,"""The value of the club lounge access was debatable. The evening offerings were sparse."" (This refers to facilities – specifically, the amenities and food/drink provided within the club lounge.)"
+77,Positive,Room Quality,Positive,"""The beds were so comfortable that we inquired about purchasing the same mattress for our home.""",,,
+78,Negative,,,,,,
+79,Positive,Room Quality,Positive,"""Our room was serviced perfectly in no time at all."" (This implies the room itself was satisfactory and well-maintained, leading to a positive assessment of its quality.)",Service,Positive,"""The speed and efficiency of the housekeeping team were amazing. Our room was serviced perfectly in no time at all."""
+80,Positive,Check-in/Check-out,Positive,"""The hotel's app for keyless entry worked flawlessly and was very convenient."" (This implies a smooth and easy check-in process due to the keyless entry.)",,,
+81,Negative,Service,Negative,"""The restaurant service was painfully slow on a night it wasn't even busy. We waited 45 minutes for our main course.""",Dining,Negative,"""The restaurant service was painfully slow on a night it wasn't even busy. We waited 45 minutes for our main course."""
+82,Positive,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the outdoor pool.,Facilities,Positive,"""The heated outdoor pool was a fantastic feature, allowing us to swim comfortably even on a cool evening."""
+83,Negative,,,,,,
+84,Positive,,,,,,
+85,Neutral,Room Quality,Negative,"""Our room lacked a full-length mirror, which was an odd omission.""",,,
+86,Positive,Room Quality,Neutral,There is no mention of room quality in this review. The entire review focuses on the staff and their service.,Service,Positive,"""The staff's proactive service was noteworthy; they often anticipated our needs before we even asked."""
+87,Neutral,Dining,Negative,"""The breakfast pastries were stale on two separate mornings. The fresh fruit selection, however, was excellent.""",,,
+88,Negative,,,,,,
+89,Positive,,,,,,
+90,Neutral,Room Quality,Negative,"""We had to call maintenance to fix a running toilet in our bathroom.""",,,
+91,Positive,,,,,,
+92,Negative,Dining,Negative,"""The children's menu in the restaurant was unimaginative, offering only the usual fried options.""",,,
+93,Positive,,,,,,
+94,Negative,Facilities,Negative,"""The water in the pool felt over-chlorinated and irritated our eyes.""",,,
+95,Negative,Service,Negative,"""The front desk was understaffed, leading to a long queue at check-in. The single staff member was doing her best.""",Check-in/Check-out,Negative,"""The front desk was understaffed, leading to a long queue at check-in. The single staff member was doing her best."""
+96,Positive,Room Quality,Positive,"""The room was spacious, with a separate seating area that was perfect for relaxing.""",Facilities,Positive,"""The room was spacious, with a separate seating area that was perfect for relaxing."" This implies a positive experience with the room's layout and included furniture – aspects of hotel facilities."
+97,Positive,,,,,,
+98,Positive,,,,,,
+99,Negative,,,,,,
+100,Positive,Room Quality,Positive,"""Everything feels clean, polished, and well-cared for."" While not explicitly mentioning a 'room', the review's description of overall property maintenance strongly implies positive room quality.",,,
+101,Neutral,Room Quality,Neutral,"""The bed was exceptionally comfortable, but the pillows were too flat for our liking.""",,,
+102,Negative,Room Quality,Negative,"The review doesn't directly mention room quality itself. However, the complaint about slow and cold room service implies a negative experience related to the hotel’s overall operational standards which impacts the perceived quality of the stay.",Service,Negative,"""The room service arrived cold, nearly 30 minutes after the quoted time."""
+103,Positive,Room Quality,Neutral,There is no mention of room quality in this review. It focuses solely on the hotel's location and proximity to attractions.,,,
+104,Neutral,Room Quality,Neutral,There is no mention of room quality in this review. The feedback focuses solely on the hotel's gym facilities.,Facilities,Negative,"""The gym was overcrowded in the mornings. It would be beneficial to expand the space or add more equipment."""
+105,Positive,Service,Positive,"""The staff's attention to detail is remarkable. They remembered our coffee order every morning.""",,,
+106,Negative,Service,Negative,"""Check-in was chaotic. The front desk seemed disorganized despite having multiple staff members present.""",Check-in/Check-out,Negative,"""Check-in was chaotic. The front desk seemed disorganized despite having multiple staff members present."""
+107,Negative,Room Quality,Neutral,There is no mention of room quality in this review. The feedback focuses solely on the breakfast buffet.,Dining,Negative,"""The breakfast buffet lacked fresh vegetable options. It was very carb and meat-heavy."""
+108,Positive,Service,Positive,"""The valet parking service, while expensive, was incredibly convenient and efficient.""",Value,Negative,"""The valet parking service, while expensive..."" indicates a negative perception of value due to the high cost. The convenience is acknowledged, but the expense detracts from overall value."
+109,Positive,Room Quality,Positive,"""We loved the modern design of the room, especially the open-concept bathroom. Very stylish.""",,,
+110,Positive,,,,,,
+111,Negative,Room Quality,Negative,"""Our 'city view' room overlooked an unsightly alleyway and dumpsters. The description was not accurate.""",,,
+112,Negative,Service,Negative,"""The concierge was not very knowledgeable about public transportation routes, providing incorrect information.""",,,
+113,Positive,Dining,Positive,"""The quality of the food at the hotel's signature restaurant was outstanding, worth every penny.""",Value,Positive,"""worth every penny"" indicates a positive perception of value, suggesting the reviewer felt the cost was justified by the quality of the food."
+114,Negative,Room Quality,Negative,"""The air conditioning system was very loud, kicking on and off throughout the night and disturbing our sleep.""",,,
+115,Positive,Service,Positive,"""Housekeeping staff were friendly and always greeted us in the hallways. They did a fantastic job.""",,,
+116,Negative,Room Quality,Neutral,There is no mention of room quality in this review. It focuses solely on the pool area and service there.,Service,Negative,"""Service there seemed a bit overwhelmed."""
+117,Positive,Room Quality,Neutral,"The review doesn't directly comment on room quality itself. It mentions the ease of requesting extra pillows and towels, which implies a need for them, but doesn’t assess the base condition or comfort of the room.",,,
+118,Positive,Room Quality,Positive,"""The soundproofing is excellent. We never heard any noise from neighboring rooms or the hallway."" (This directly relates to a key aspect of room quality - noise levels and isolation.)",,,
+119,Negative,,,,,,
+120,Positive,,,,,,
+121,Neutral,Room Quality,Neutral,"""We had an issue with the TV remote not working. Maintenance replaced the batteries promptly."" (While there was a problem, the quick resolution suggests it didn't significantly detract from the overall room quality experience.)",,,
+122,Negative,Room Quality,Negative,"While noting cleanliness (""very clean""), the reviewer describes the hotel as ""sterile"" and lacking ""character,"" implying a deficiency in room quality beyond just basic functionality. It suggests a lack of comfort or appealing design.",,,
+123,Positive,Room Quality,Neutral,There is no mention of room quality in this review. The entire focus is on the staff and their handling of dietary allergies.,Service,Positive,"""The staff went out of their way to accommodate my dietary allergies, which I greatly appreciated."""
+124,Positive,,,,,,
+125,Negative,Value,Negative,"""The price of drinks at the lobby bar is excessive.""",,,
+126,Positive,Room Quality,Positive,"""The blackout curtains were highly effective. The room remained dark and conducive to sleep.""",,,
+127,Negative,Check-in/Check-out,Negative,"""The check-out process involved a long wait, and there was an error on our folio that needed correction.""",,,
+128,Positive,Room Quality,Positive,"""The selection of teas and coffees in the room was excellent and replenished daily.""",,,
+129,Positive,Service,Positive,"""The hotel security team was visible and professional, which made us feel very secure during our stay."" (While not explicitly labeled 'service,' the security team's actions are a form of service provided by the hotel.)",,,
+130,Negative,,,,,,
+131,Positive,,,,,,
+132,Negative,Dining,Negative,"""...requiring a taxi for almost any errand or meal.""",,,
+133,Positive,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the in-room dining menu.,Dining,Positive,"""The in-room dining menu offered a great variety of healthy options, not just typical comfort food."""
+134,Negative,Service,Negative,"""The staff at the front desk seemed indifferent and not particularly welcoming upon our arrival.""",Check-in/Check-out,Negative,"""The staff at the front desk seemed indifferent and not particularly welcoming upon our arrival."""
+135,Neutral,,,,,,
+136,Positive,Value,Positive,"""The complimentary airport shuttle was a fantastic amenity that saved us time and money.""",,,
+137,Negative,Room Quality,Negative,"""Our room had a faint smell of smoke, despite being a non-smoking floor. The hotel was unable to move us.""",,,
+138,Positive,Service,Positive,"""The turndown service with a small chocolate on the pillow was a lovely, classic touch.""",,,
+139,Positive,Room Quality,Neutral,There is no mention of room quality in this review. It focuses solely on the kids' club activities.,Facilities,Neutral,"The review mentions ""kids' club activities,"" which could be considered a facility offered by the hotel, but it doesn’t directly discuss the facilities themselves (e.g., condition, cleanliness, quality of equipment). It focuses solely on the *activities* provided within that facility."
+140,Negative,Room Quality,Negative,"""The water pressure in the shower was disappointingly weak. It took forever to rinse out shampoo.""",,,
+141,Neutral,,,,,,
+142,Positive,Room Quality,Neutral,There is no mention of room quality in this review. It focuses solely on the staff's professionalism and helpfulness.,Service,Positive,"""The staff's professionalism and willingness to help were consistent across all departments."""
+143,Negative,Check-in/Check-out,Negative,"""The online check-in feature did not work, forcing us to wait in line anyway.""",,,
+144,Positive,Room Quality,Positive,"""The bed was so comfortable it was difficult to get up in the morning. High-quality linens too.""",,,
+145,Negative,Dining,Negative,"""The hotel restaurant is overrated and overpriced. Better food can be found just a block away.""",Value,Negative,"""The hotel restaurant is overrated and overpriced."""
+146,Neutral,Room Quality,Neutral,There is no mention of room quality in this review. The feedback focuses solely on the spa and massage experience.,Facilities,Positive,"""The spa facilities were clean and serene..."""
+147,Positive,Check-in/Check-out,Positive,"""The proximity to the main train station made our arrival and departure incredibly smooth."" (Arrival refers to check-in, and departure refers to check-out.)",,,
+148,Negative,Room Quality,Negative,"""The room lacked sufficient storage space for luggage and clothing for a week-long stay.""",Facilities,Negative,"""The room lacked sufficient storage space for luggage and clothing for a week-long stay."""
+149,Positive,Value,Positive,"""The evening happy hour at the bar offered great value with discounted drinks and complimentary appetizers.""",,,
+150,Negative,Facilities,Negative,"""The pool was much smaller than it appeared in the promotional photos. It was always crowded.""",,,
+151,Positive,Room Quality,Neutral,There is no mention of room quality in this review. The entire review focuses solely on the friendliness and demeanor of the hotel staff.,Service,Positive,"""Every staff member we interacted with was genuinely friendly and seemed happy to be working there."""
+152,Negative,,,,,,
+153,Positive,Room Quality,Neutral,"The review does not mention room quality directly. It only comments on the speed of room service, which is a separate hotel amenity.",Service,Positive,"""The speed of the room service was impressive. Our late-night snack arrived in under 20 minutes."""
+154,Positive,Room Quality,Positive,"""The view of the city skyline from our room was magnificent, especially at night."" (While not explicitly detailing furnishings or cleanliness, a 'magnificent' view strongly implies a positive experience related to the room itself.)",,,
+155,Negative,,,,,,
+156,Positive,Service,Positive,"""The concierge provided a fantastic running map of the local area, which was very helpful.""",,,
+157,Neutral,Dining,Negative,"""The breakfast selection was identical every single day. A little variety would be appreciated.""",,,
+158,Positive,Room Quality,Positive,"""considering its location and the quality of the rooms.""",Value,Positive,"""The hotel is an excellent value for the money, considering its location and the quality of the rooms."""
+159,Neutral,Room Quality,Negative,"""The towels provided were thin and rough.""",Facilities,Negative,"""The towels provided were thin and rough."""
+160,Negative,Room Quality,Negative,"""The noise from the hotel bar's live music traveled up to our room on the third floor."" (This implies a lack of soundproofing and therefore impacts room quality negatively.)",,,
+161,Positive,Room Quality,Neutral,"The review mentions being ""on our way to the room"" but provides no details or opinions regarding the actual quality of the room itself. It only references the speed of check-in and access to the room.",Service,Positive,"""The check-in staff were efficient and had us on our way to the room in minutes."""
+162,Negative,Room Quality,Negative,"The review mentions ""in-room dining,"" which implies a service *within* the room. The food delivered to the room was described as ""bland and lukewarm,"" indicating poor quality related to the in-room experience.",Dining,Negative,"""The food from in-room dining was bland and lukewarm upon arrival. Not worth the price."""
+163,Positive,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the fitness center.,Facilities,Positive,"""The fitness center had a great range of free weights and machines, catering to a serious workout."""
+164,Positive,,,,,,
+165,Negative,Service,Negative,"""The front desk was unhelpful when we asked for a late checkout, offering no flexibility.""",Check-in/Check-out,Negative,"""The front desk was unhelpful when we asked for a late checkout, offering no flexibility."""
+166,Positive,,,,,,
+167,Positive,Room Quality,Positive,"""The room's air conditioning was quiet and effective, maintaining a constant comfortable temperature.""",,,
+168,Negative,Room Quality,Negative,"""We found a previous guest's item in our room, indicating housekeeping was not as thorough as it should be.""",,,
+169,Positive,Service,Positive,"""The poolside service was attentive, with staff frequently checking if we needed drinks or food.""",Dining,Positive,"""with staff frequently checking if we needed drinks or food."""
+170,Positive,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the hotel's location and its impact on the overall stay (peacefulness).,,,
+171,Positive,Room Quality,Neutral,There is no mention of room quality in this review. It focuses solely on the billing and checkout process.,Check-in/Check-out,Positive,"""The billing was handled flawlessly at checkout. The folio was accurate and easy to understand."""
+172,Negative,,,,,,
+173,Positive,,,,,,
+174,Negative,Room Quality,Neutral,There is no mention of room quality in this review. The feedback focuses solely on the staff and their demeanor.,Service,Negative,"""The staff appeared stressed and overworked, which detracted from the guest experience."""
+175,Positive,Room Quality,Neutral,"The review does not mention room quality at all. It focuses solely on the conference facilities, tech support, and catering services.",Service,Positive,"""The conference facilities were outstanding, with great tech support and catering services."" (Both tech support and catering are aspects of service.)"
+176,Negative,Room Quality,Negative,"""The pillows were lumpy and uncomfortable. We requested different ones, but they were not much better.""",,,
+177,Positive,Dining,Positive,"""The hotel's commitment to local sourcing in its restaurant is commendable and resulted in very fresh-tasting food.""",,,
+178,Positive,Room Quality,Positive,"""The layout of the room was spacious and well thought out, with a comfortable seating area.""",Facilities,Positive,"The review mentions a ""comfortable seating area"" within the room, which falls under hotel facilities. This is presented positively as being ""well thought out."""
+179,Negative,,,,,,
+180,Positive,Room Quality,Positive,"The keyless entry app for the room door was convenient and worked every time without fail. (This implies a well-functioning and modern room feature, contributing to positive room quality perception.)",Check-in/Check-out,Positive,"""The keyless entry app for the room door was convenient and worked every time without fail."" (This implies a smooth and easy check-in process facilitated by the app.)"
+181,Negative,Service,Negative,"""The restaurant hostess was dismissive and rude. It was a very poor start to our dinner.""",Dining,Negative,"""The restaurant hostess was dismissive and rude. It was a very poor start to our dinner."""
+182,Positive,Room Quality,Positive,"""The heated bathroom floors were an unexpected and wonderful luxury.""",,,
+183,Negative,Room Quality,Negative,"""The sound of the elevator mechanism was audible from our room, which was located nearby.""",,,
+184,Positive,Service,Positive,"""The hotel's tour desk was very helpful in arranging a day trip for us at a reasonable price.""",Value,Positive,"""The hotel's tour desk was very helpful in arranging a day trip for us at a reasonable price."""
+185,Negative,Room Quality,Negative,"""The room's work desk was too small and lacked easily accessible power outlets.""",,,
+186,Positive,Room Quality,Neutral,There is no mention of room quality in this review. The review focuses solely on the hotel's communication prior to the stay.,Service,Positive,"""The proactive communication from the hotel before our stay, confirming details, was very professional."""
+187,Neutral,Room Quality,Neutral,There is no mention of room quality in this review. It focuses solely on the breakfast buffet and coffee options.,Dining,Negative,"""The coffee at the breakfast buffet was consistently weak and lukewarm. The espresso machine was a good alternative."""
+188,Positive,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the pet relief area.,,,
+189,Positive,,,,,,
+190,Negative,Room Quality,Negative,"""Maintenance took over an hour to respond to our call about a broken shower head.""",,,
+191,Positive,,,,,,
+192,Positive,Room Quality,Neutral,"The review mentions ""children's room service menu,"" but this refers to food options available *within* a child’s room, not the quality of the room itself. Therefore, it doesn't directly address room quality.",Service,Positive,"""The options on the children's room service menu were surprisingly healthy and varied."""
+193,Positive,Room Quality,Positive,"""We were touched by the small cake and card left in our room..."" This indicates a positive experience related to what was *in* the room, suggesting attention to detail and a pleasant environment.",,,
+194,Negative,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the swimming pool temperature.,Facilities,Negative,"""The water temperature in the swimming pool was too cold to be enjoyable for more than a few minutes."""
+195,Negative,Room Quality,Neutral,There is no mention of room quality in this review. The feedback focuses solely on the check-in experience.,Check-in/Check-out,Negative,"""The check-in process was impersonal and felt very transactional, lacking any warmth."""
+196,Positive,Room Quality,Positive,"""The room was incredibly spacious, feeling more like a junior suite than a standard room.""",Facilities,Positive,"The review doesn't explicitly mention ""Facilities"" but implies a positive experience with the room size, describing it as ""incredibly spacious"" and akin to a ""junior suite,"" suggesting above-average room amenities and space."
+197,Positive,Room Quality,Positive,"""The complimentary slippers and robe were of high quality and very comfortable.""",,,
+198,Positive,,,,,,
+199,Negative,,,,,,
+200,Positive,Room Quality,Positive,"The review states ""The property is immaculately clean,"" which directly implies a positive assessment of room quality due to the cleanliness maintained by housekeeping and maintenance.",,,
+201,Neutral,Room Quality,Negative,"""The bed was comfortable, but the linens had a faint chemical smell, likely from the detergent used.""",,,
+202,Positive,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the room service and food presentation.,Service,Positive,"""Room service was not only fast but the presentation of the food was also beautiful, like a fine dining restaurant."""
+203,Positive,Room Quality,Neutral,There is no mention of room quality in this review. The entire focus is on the hotel's location and its impact on transportation costs.,,,
+204,Negative,Room Quality,Negative,"The review does not mention room quality directly. It discusses the gym's air conditioning, which is a separate facility and doesn’t reflect on the rooms themselves.",Facilities,Negative,"""The gym's air conditioning was not working properly, making for an uncomfortably warm workout."""
+205,Positive,Service,Positive,"""The staff remembered us from a previous visit a year ago, which was an incredible and welcoming touch.""",,,
+206,Negative,Service,Negative,"""The check-in process was marred by the staff's inability to find our reservation for several minutes.""",Check-in/Check-out,Negative,"""The check-in process was marred by the staff's inability to find our reservation for several minutes."""
+207,Positive,Dining,Positive,"""The breakfast buffet was a highlight, with a chef making fresh omelets and pancakes to order.""",,,
+208,Negative,Service,Negative,"""The valet service damaged our car, leaving a small scratch on the bumper. They were very difficult about it.""",,,
+209,Positive,Room Quality,Neutral,"The review doesn't directly mention room quality. It focuses on the overall hotel design and atmosphere (""minimalist,"" ""calming,"" ""peaceful retreat""), but provides no details or opinions regarding the condition, cleanliness, amenities, or features of the rooms themselves.",,,
+210,Positive,Room Quality,Neutral,"The review mentions the room but only in relation to Wi-Fi access. It doesn't offer any specific commentary on the physical condition, cleanliness, or amenities of the room itself.",,,
+211,Negative,Room Quality,Negative,"""Our room directly overlooked a noisy construction site that started work early in the morning.""",,,
+212,Positive,Service,Positive,"""I was very pleased with the service.""",,,
+213,Negative,Dining,Negative,"""The food quality at the pool bar was surprisingly poor and overpriced for what was offered.""",Facilities,Negative,"""The food quality at the pool bar was surprisingly poor and overpriced for what was offered."" (The pool bar is considered a facility of the hotel.)"
+214,Negative,Room Quality,Negative,"""The air conditioning unit in our room made a rattling noise all night. We had to turn it off to sleep.""",,,
+215,Positive,Room Quality,Neutral,"The review doesn't directly comment on the room itself (e.g., cleanliness, decor, amenities). It focuses solely on the housekeeping service – their respect for privacy and promptness in servicing the room when requested.",Service,Positive,"""Housekeeping was respectful of our 'do not disturb' sign and always serviced the room promptly when we removed it."""
+216,Neutral,Facilities,Negative,"""The pool was beautiful but the water was frigid, even on a hot day. It needs to be heated.""",,,
+217,Positive,Room Quality,Neutral,"The review does not mention room quality directly. It references using the hotel app for services like room service, but doesn't comment on the condition or features of the room itself.",Service,Positive,"""We used it for everything from room service to spa bookings without any issues."""
+218,Positive,Room Quality,Positive,"""The soundproofing is top-notch. I'm a light sleeper and I wasn't disturbed by any external noise."" (This directly relates to the quality of the room in terms of noise reduction, a key aspect of room comfort.)",,,
+219,Negative,,,,,,
+220,Positive,,,,,,
+221,Negative,Room Quality,Negative,"""We had a leaky faucet in the bathroom that dripped constantly. Maintenance was unable to fix it during our stay.""",,,
+222,Positive,,,,,,
+223,Positive,Room Quality,Positive,"The staff accommodated a request for a fragrance-free room due to allergies, indicating attention to guest needs and potentially good room quality related to cleanliness or environmental controls.",Service,Positive,"""The staff were incredibly accommodating of our request for a fragrance-free room due to allergies."""
+224,Positive,,,,,,
+225,Negative,Value,Negative,"""The price for a bottle of water from the minibar is outrageous. It feels like price gouging.""",,,
+226,Positive,Room Quality,Positive,"""The blackout curtains were truly effective, making it easy to sleep in late."" This indicates a positive aspect of the room's quality related to light control and comfort.",,,
+227,Negative,Check-in/Check-out,Negative,"""The check-out process was complicated by an attempt to charge us for minibar items we hadn't consumed.""",,,
+228,Positive,Room Quality,Positive,"""The in-room Nespresso machine was a wonderful amenity that we used every morning."" (This implies a well-equipped and desirable room.)",,,
+229,Positive,Room Quality,Neutral,There is no mention of room quality in this review. It focuses solely on the security staff.,Service,Positive,"""The security staff were not just present but also actively engaged and friendly, which was reassuring."" (While technically referring to 'security staff', this directly relates to the hotel's service provision.)"
+230,Positive,Room Quality,Neutral,The review does not mention anything about room quality. It focuses solely on the convenience of the hotel gift shop and its offerings.,,,
+231,Negative,Room Quality,Negative,"""The mattress sagged in the middle, suggesting it is old and in need of replacement.""",,,
+232,Positive,Dining,Positive,"""The hotel is located in a vibrant neighborhood with countless excellent restaurants...""",,,
+233,Positive,Room Quality,Neutral,The review does not mention room quality directly. It focuses solely on the in-room dining experience and menu.,Dining,Positive,"""The in-room dining menu was creative and featured several locally inspired dishes. We enjoyed trying them."""
+234,Negative,Service,Negative,"""The front desk staff seemed disengaged and were more focused on their computer screens than the guests.""",,,
+235,Neutral,,,,,,
+236,Positive,Service,Positive,"""The complimentary shuttle service runs on a very convenient and frequent schedule. We used it daily.""",,,
+237,Negative,Room Quality,Negative,"""Our non-smoking room had clearly been smoked in recently. The lingering smell was very unpleasant.""",,,
+238,Positive,Room Quality,Neutral,"The review does not directly mention room quality. It focuses solely on the evening turndown service, which is a separate amenity and doesn't reflect on the inherent condition or features of the room itself.",Service,Positive,"""The evening turndown service felt like a real luxury and was performed unobtrusively each evening."""
+239,Positive,Room Quality,Neutral,There is no mention of room quality in this review. The entire focus is on the kids' club and its staff.,Service,Positive,"""The kids' club staff were not just babysitters; they led educational and fun activities."""
+240,Negative,Room Quality,Negative,"The review mentions a ""trickle"" water pressure, making it ""almost impossible to take a satisfying shower,"" which directly impacts the quality of the room's bathroom facilities and overall experience.",,,
+241,Positive,,,,,,
+242,Neutral,Room Quality,Neutral,There is no mention of room quality in this review. The entire review focuses solely on the service provided by the staff.,Service,Negative,"""The service from the staff was technically correct but lacked any warmth or genuine hospitality."""
+243,Neutral,Check-in/Check-out,Negative,"""The mobile check-in promised a ready key, but we still had to wait in a long line to get it.""",,,
+244,Positive,Room Quality,Positive,"""The bed and pillows were so heavenly that we had the best sleep we've had in months.""",,,
+245,Neutral,Room Quality,Neutral,There is no mention of room quality in this review. It focuses solely on the restaurant experience (ambiance and food).,Dining,Negative,"""The hotel restaurant's ambiance was lovely, but the food was uninspired and lacked flavor."""
+246,Positive,Room Quality,Neutral,"The review mentions a ""relaxation room,"" which could be considered part of the hotel's rooms or facilities, but it doesn’t directly address the quality of standard guest rooms. It focuses solely on the relaxation room experience.",Facilities,Positive,"""The spa was a true sanctuary of calm. The relaxation room alone was worth the visit."""
+247,Positive,,,,,,
+248,Negative,Room Quality,Negative,"""The room's closet space was inadequate for two people on a five-day trip. We lived out of our suitcases.""",Facilities,Negative,"""The room's closet space was inadequate for two people on a five-day trip."""
+249,Neutral,,,,,,
+250,Negative,Facilities,Negative,"""The swimming pool is shaded by another building for most of the afternoon, which was disappointing.""",,,
+251,Positive,Service,Positive,"""The genuine kindness shown by every staff member made our stay truly special and memorable.""",,,
+252,Negative,Room Quality,Negative,"""The hotel has a tired, worn-out feel. It's clean, but everything seems a bit faded and old.""",,,
+253,Positive,Room Quality,Positive,"The review praises the ""quality of the room service,"" implying a positive experience related to the room itself and its services.",Service,Positive,"""The speed and quality of the room service were consistently excellent, no matter the time of day."""
+254,Positive,,,,,,
+255,Negative,Check-in/Check-out,Neutral,The review does not mention check-in or check-out at all. It focuses solely on the Wi-Fi service.,,,
+256,Negative,Service,Negative,"""The concierge's directions were confusing, and we ended up getting lost on our way to a recommended spot.""",,,
+257,Negative,Dining,Negative,"""The breakfast options were limited and never changed during our 4-night stay. It became very repetitive.""",,,
+258,Negative,Value,Negative,"""Considering the high price point, the experience felt average. It did not deliver on the promise of luxury."" (This implies a lack of value – paying a premium for an unremarkable experience.)",,,
+259,Neutral,Room Quality,Negative,"""The bathroom was very small, with a cramped shower stall.""",,,
+260,Negative,,,,,,
+261,Positive,Service,Positive,"""The check-in was smooth, and the receptionist provided a wealth of helpful information about the hotel.""",Check-in/Check-out,Positive,"""The check-in was smooth, and the receptionist provided a wealth of helpful information about the hotel."""
+262,Negative,Room Quality,Negative,"The review mentions ""in-room dining food"" and states, ""We were very disappointed with the quality."" While not directly stating issues with the room itself, it implies a negative experience related to services *within* the room.",Dining,Negative,"""The in-room dining food arrived overcooked and dry. We were very disappointed with the quality."""
+263,Positive,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the fitness center.,Facilities,Positive,"""The fitness center was surprisingly spacious and had a wide variety of modern equipment."""
+264,Positive,,,,,,
+265,Negative,Room Quality,Neutral,"The review doesn't directly comment on the room quality itself. It mentions rooms were ""likely ready,"" implying they exist and are prepared, but offers no assessment of their condition or features.",Check-in/Check-out,Negative,"""The front desk was rigid about the check-in time, making us wait in the lobby for an hour even though rooms were likely ready."""
+266,Negative,Room Quality,Neutral,There is no mention of room quality in this review. The feedback focuses solely on the lobby's fragrance.,,,
+267,Positive,Room Quality,Positive,"""The room's climate control was excellent, allowing us to set a precise and comfortable temperature.""",,,
+268,Negative,Room Quality,Negative,"""We found a dirty sock from a previous guest in the corner of the room. A major housekeeping failure.""",,,
+269,Negative,Room Quality,Neutral,There is no mention of room quality in this review. The feedback focuses solely on the pool bar service.,Service,Negative,"""The service at the pool bar was slow and inattentive. We had to flag down a server to place an order."""
+270,Positive,Room Quality,Neutral,There is no mention of room quality in this review. It focuses solely on the hotel's location and surrounding environment.,,,
+271,Positive,Room Quality,Neutral,There is no mention of room quality in this review. It focuses solely on the checkout process and billing accuracy.,Check-in/Check-out,Positive,"""Checkout was quick and efficient, with an accurate bill emailed to me instantly."""
+272,Negative,Room Quality,Negative,"The review mentions issues with the minibar sensors, which resulted in incorrect charges for items moved. While not directly describing the room itself, faulty equipment within the room negatively impacts the overall experience and perceived quality.",Facilities,Negative,"""The minibar sensors are a nightmare. We were charged for several items we merely moved to make space."""
+273,Positive,Room Quality,Positive,"While not directly mentioning the room itself, the provision of a ""high-quality, safe, and clean crib"" implies a positive assessment of the room's suitability and overall quality for accommodating an infant.",,,
+274,Negative,Service,Negative,"""The staff seemed constantly rushed and unable to provide personalized service.""",,,
+275,Positive,Room Quality,Neutral,The review does not mention guest rooms or room quality at all. It only discusses meeting rooms and catering.,,,
+276,Negative,,,,,,
+277,Positive,Dining,Positive,"""We were impressed by the restaurant's focus on farm-to-table ingredients. The freshness was evident in every dish.""",,,
+278,Negative,Room Quality,Negative,"""The room's layout was impractical, with the only power outlets located far from the bed.""",,,
+279,Positive,,,,,,
+280,Negative,Check-in/Check-out,Negative,"""The mobile key feature in the hotel app failed to work half the time, forcing us to get physical keys.""",,,
+281,Negative,Room Quality,Neutral,There is no mention of room quality in this review. The feedback focuses solely on the breakfast buffet and hostess service.,Service,Negative,"""The hostess at the breakfast buffet was rude and unaccommodating when we asked for a different table."""
+282,Positive,Room Quality,Positive,"""The heated towel rack in the bathroom was a touch of luxury that we absolutely loved.""",,,
+283,Negative,Room Quality,Negative,"""Our room was right next to the ice machine, and we heard it being used at all hours of the night.""",,,
+284,Positive,Value,Positive,"""The hotel's partnership with a local bike rental company was a great, affordable way to see the city.""",,,
+285,Negative,Room Quality,Negative,"""The work desk in the room was tiny and uncomfortable for getting any real work done.""",,,
+286,Positive,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the proactive service of the concierge and their pre-arrival email.,Service,Positive,"""The pre-arrival email from the concierge asking about any special requests was a nice, proactive touch."""
+287,Negative,Dining,Negative,"""The orange juice at the breakfast buffet was clearly from a concentrate and tasted artificial.""",,,
+288,Negative,,,,,,
+289,Positive,,,,,,
+290,Negative,Room Quality,Negative,"The review doesn't directly mention room quality itself. However, the significant delay in receiving extra towels suggests a potential issue with basic amenities and service related to the room, implying a negative aspect of the overall experience and indirectly reflecting on room quality.",,,
+291,Positive,Room Quality,Neutral,There is no mention of room quality in this review. The entire review focuses on the hotel's security presence and team professionalism.,Service,Positive,"""They were a professional team."" (This refers to the security personnel, which falls under the broader category of hotel service.)"
+292,Positive,Dining,Positive,"""The children's menu was thoughtful, offering smaller portions of the adult menu items, not just fried food.""",,,
+293,Positive,Room Quality,Neutral,There is no mention of room quality in this review. It focuses solely on the hotel's gesture regarding the anniversary celebration (the sparkling wine).,Facilities,Neutral,The review does not mention any facilities. It focuses solely on a complimentary bottle of wine related to an anniversary celebration.
+294,Negative,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the swimming pool's condition.,Facilities,Negative,"""The swimming pool was cloudy, and the water didn't seem very clean."""
+295,Negative,Room Quality,Neutral,There is no mention of room quality in this review. The feedback focuses solely on the check-in experience and staff interaction.,Service,Negative,"""The check-in felt very robotic and scripted, with no genuine interaction from the staff."""
+296,Positive,Room Quality,Positive,"""The suite was exceptionally large, with a separate living room that provided plenty of space to spread out.""",Facilities,Positive,"The suite's size and separate living room are mentioned, indicating a positive view of the provided space and layout – aspects that fall under hotel facilities."
+297,Positive,,,,,,
+298,Positive,,,,,,
+299,Negative,Dining,Negative,"""We were very disappointed to find the main restaurant closed for renovations during our stay, which wasn't mentioned online.""",,,
+300,Positive,Room Quality,Positive,"""The entire property, from the lobby to the room, was maintained to an exemplary standard of cleanliness.""",,,
+301,Neutral,Room Quality,Negative,"While the bed itself was praised (""The bed was a dream""), the review highlights a significant issue impacting room quality – thin walls that allowed noise from neighboring rooms to disrupt sleep.",,,
+302,Positive,Room Quality,Neutral,"The review does not mention room quality directly. It focuses solely on the experience of room service and its presentation, not the condition or features of the room itself.",Service,Positive,"""Room service was not just a meal; it was an experience. The trolley was set up like a private dining table."""
+303,Positive,,,,,,
+304,Negative,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the gym facilities.,Facilities,Negative,"""The gym lacked basic amenities like disinfectant wipes for the machines and a water cooler."""
+305,Positive,Room Quality,Positive,"""The personal welcome note from the hotel manager in our room was a very classy and appreciated gesture."" (This implies attention to detail and a pleasant room environment, suggesting positive room quality.)",,,
+306,Negative,Room Quality,Negative,"The review doesn't directly comment on the room’s condition or amenities. However, the significant delay in getting the room ready (""Our room wasn't ready until two hours after the guaranteed time"") implies a negative experience related to room availability and preparedness, thus impacting perceived Room Quality.",Check-in/Check-out,Negative,"""The check-in process was a disaster. Our room wasn't ready until two hours after the guaranteed time."""
+307,Positive,Dining,Positive,"""The breakfast buffet's fresh fruit display was extensive and delicious. A healthy and refreshing start to the day.""",,,
+308,Negative,Service,Negative,"""The valet service lost our car keys for 20 minutes, causing a stressful delay.""",Check-in/Check-out,Negative,"""The valet service lost our car keys for 20 minutes, causing a stressful delay."" (This implies a problem during the arrival/check-in process as valet services are typically involved then.)"
+309,Positive,,,,,,
+310,Positive,,,,,,
+311,Positive,Room Quality,Positive,"""Our room offered a stunning view of the park, which was especially beautiful in the morning."" (While not explicitly stating quality of the *room* itself, the mention of a ""stunning view"" implies a positive aspect contributing to the overall experience and therefore relates to room quality.)",,,
+312,Positive,Service,Positive,"""The concierge gave us a map with hand-drawn notes for a walking tour, which was incredibly thoughtful and helpful.""",,,
+313,Negative,Dining,Negative,"""The food at the hotel cafe was mediocre and overpriced. A classic case of a captive audience.""",Value,Negative,"""The food at the hotel cafe was mediocre and overpriced. A classic case of a captive audience."" (Implies poor value due to high prices for low quality.)"
+314,Negative,Room Quality,Negative,"""The air conditioning was either off or arctic blast. There was no comfortable middle ground.""",,,
+315,Positive,Room Quality,Positive,"""Our room was a sanctuary of cleanliness to return to each day.""",,,
+316,Neutral,Room Quality,Neutral,The review makes absolutely no mention of room quality whatsoever. It focuses solely on the pool situation and alternative arrangements.,Service,Positive,"""The main pool was being serviced, but the hotel offered access to an equally nice pool at a sister property nearby."""
+317,Positive,,,,,,
+318,Positive,Room Quality,Positive,"""The room was incredibly quiet. We felt like we were the only guests on the floor.""",,,
+319,Negative,,,,,,
+320,Positive,,,,,,
+321,Neutral,Room Quality,Negative,"""The shower had a drainage problem, leaving a pool of water at our feet.""",Facilities,Negative,"""The shower had a drainage problem, leaving a pool of water at our feet. Maintenance fixed it on the second day."""
+322,Positive,,,,,,
+323,Positive,Service,Positive,"""The staff took note of my gluten allergy and ensured there were safe and delicious options for me at every meal.""",Dining,Positive,"""The staff took note of my gluten allergy and ensured there were safe and delicious options for me at every meal."""
+324,Positive,,,,,,
+325,Negative,,,,,,
+326,Positive,,,,,,
+327,Negative,Service,Negative,"""The staff member couldn't clearly explain the taxes and fees on the bill.""",Check-in/Check-out,Negative,"""Checkout was confusing. The staff member couldn't clearly explain the taxes and fees on the bill."""
+328,Positive,Room Quality,Positive,"""The high-quality coffee and tea selection in the room was a small detail that made a big difference.""",,,
+329,Positive,,,,,,
+330,Negative,Room Quality,Neutral,There is no mention of room quality in this review. It focuses solely on the hotel's shop.,,,
+331,Negative,Room Quality,Negative,"""The mattress was clearly old and offered no support. We both woke up with backaches.""",,,
+332,Positive,Dining,Positive,"""The hotel's location is a foodie's paradise, with dozens of incredible restaurants within a few blocks.""",,,
+333,Positive,Room Quality,Neutral,"The review mentions ""in-room dining"" and its quality, but does not directly address the quality of the room itself (e.g., cleanliness, decor, amenities). Therefore, it's neutral regarding overall Room Quality.",Dining,Positive,"""The in-room dining menu was surprisingly affordable and the quality was excellent for the price."""
+334,Negative,Service,Negative,"""The front desk staff were cold and aloof, making us feel like an inconvenience.""",,,
+335,Positive,Room Quality,Neutral,"The review mentions ""modern amenities"" which *could* imply good room quality, but it doesn't directly address the condition or features of the rooms themselves. It focuses on the building’s restoration and charm rather than specifics about the rooms.",,,
+336,Positive,Service,Positive,"""The shuttle bus driver was particularly friendly and offered great tips on navigating the area.""",,,
+337,Negative,Room Quality,Negative,"""Our room had a distinct and unpleasant chemical cleaning smell that lingered for the entire stay.""",,,
+338,Neutral,Service,Negative,"""The turndown service was inconsistent; we received it on some nights but not others.""",,,
+339,Positive,Room Quality,Neutral,There is no mention of room quality in this review. It focuses solely on the kids' club experience.,,,
+340,Positive,Room Quality,Neutral,"The review mentions ""water pressure in the shower,"" which is a component of the room's bathroom and therefore relates to room quality, but doesn’t offer an overall assessment. It simply describes the water pressure as “fantastic.”",,,
+341,Neutral,,,,,,
+342,Neutral,Room Quality,Neutral,There is no mention of room quality in this review. The feedback focuses solely on the service and staff interaction.,Service,Negative,"""The service was efficient but lacked a personal touch. It felt like interacting with robots."""
+343,Negative,Check-in/Check-out,Negative,"""The promise of mobile check-in was a gimmick. We had to complete the entire process again at the desk.""",,,
+344,Positive,Room Quality,Positive,"""The bed was a perfect 10/10 for comfort. It was like sleeping on a cloud.""",,,
+345,Neutral,Dining,Negative,"""The restaurant has a beautiful setting, but the food is bland and unmemorable.""",,,
+346,Positive,Facilities,Positive,"""The spa's hydrotherapy circuit was incredibly relaxing and a great prelude to our treatments.""",,,
+347,Positive,,,,,,
+348,Negative,Room Quality,Negative,"""The lack of drawers in the room was frustrating. We had to live out of our suitcases for four days.""",,,
+349,Negative,,,,,,
+350,Neutral,Facilities,Negative,"""The swimming pool is located in a courtyard with no direct sunlight, making it feel a bit gloomy.""",,,
+351,Positive,Service,Positive,"""The staff's genuine warmth and care transformed our stay from good to exceptional.""",,,
+352,Negative,,,,,,
+353,Positive,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the speed and temperature of room service delivery.,Service,Positive,"""Room service delivery was incredibly fast, and the food always arrived hot."""
+354,Positive,Room Quality,Positive,"""The floor-to-ceiling windows in our room provided an unforgettable panoramic city view."" (This highlights a desirable feature contributing to a positive room experience.)",,,
+355,Negative,,,,,,
+356,Negative,Service,Negative,"""The concierge confidently gave us incorrect opening hours for a museum, causing a wasted trip.""",,,
+357,Negative,Dining,Negative,"""Breakfast was the same every day. After a week, we were tired of the limited selection.""",,,
+358,Negative,Room Quality,Negative,"The review states ""the quality of the facilities"" doesn't align with the high price. While not explicitly mentioning a room, ""facilities"" would encompass room quality within a hotel context.",Service,Negative,"""The high price does not align with the quality of the facilities or service."""
+359,Negative,Room Quality,Negative,"""The bathroom was functional but tiny. Two people could not comfortably be in there at the same time.""",,,
+360,Negative,Room Quality,Negative,"""We could hear every footstep from the room above us, which made it hard to relax."" (This indicates a lack of soundproofing and therefore impacts room quality negatively.)",,,
+361,Positive,Room Quality,Positive,"""offering us a complimentary room upgrade"" implies an improvement in room quality, suggesting the upgraded room was likely of higher standard than initially booked.",Service,Positive,"""The check-in receptionist was delightful, offering us a complimentary room upgrade for our anniversary."""
+362,Negative,Room Quality,Negative,"The review mentions room service, implying a connection to the room. The complaint about the ""soggy and tasteless"" club sandwich delivered via room service reflects negatively on the quality of food provided within the room/through hotel services related to the room.",Service,Negative,"""The club sandwich from room service was soggy and tasteless."""
+363,Positive,Facilities,Positive,"""The gym was one of the best I've seen in a hotel, with Pelotons and a great selection of weights.""",,,
+364,Negative,,,,,,
+365,Negative,Check-in/Check-out,Negative,"""The front desk refused to grant a late checkout, even for one hour, citing policy without any flexibility.""",,,
+366,Positive,Facilities,Positive,"""The subtle, pleasant scent used in the common areas was very relaxing and created a spa-like feel."" (This refers to facilities like lobbies or hallways.)",,,
+367,Positive,Room Quality,Positive,"""The room's thermostat was precise and silent, which is a rare and appreciated feature.""",,,
+368,Negative,Room Quality,Negative,"""Housekeeping left a cleaning rag behind in our bathroom. A small but unsettling oversight.""",,,
+369,Negative,Service,Negative,"""Poolside drink service was nonexistent. We had to go to the bar ourselves every time.""",Facilities,Negative,"""Poolside drink service was nonexistent. We had to go to the bar ourselves every time."" (This refers to a facility – poolside service – not being adequately provided.)"
+370,Negative,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the hotel's location and surrounding area.,,,
+371,Positive,Check-in/Check-out,Positive,"""The checkout was seamless. The bill was pushed under our door, and we just had to drop off the keys.""",,,
+372,Negative,,,,,,
+373,Positive,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the value of the family package and included attraction tickets.,Value,Positive,"""The hotel's family package, which included tickets to a local attraction, was a great value."""
+374,Negative,Service,Negative,"""which was reflected in their service.""",,,
+375,Positive,Room Quality,Neutral,"The review mentions a ""meeting room"" and its AV equipment, but doesn't provide any details or opinions regarding the general quality of guest rooms. It focuses solely on the meeting space.",,,
+376,Negative,,,,,,
+377,Positive,Dining,Positive,"""The restaurant's menu highlighted local farms and producers, which was a great touch.""",,,
+378,Negative,Room Quality,Negative,"""The room's design prioritized form over function, with stylish but uncomfortable furniture.""",,,
+379,Positive,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the parking garage.,,,
+380,Positive,Room Quality,Neutral,"The review doesn't directly comment on room quality itself. It mentions a feature – using the phone as a room key – and expresses positive surprise at its functionality, but this relates to access rather than the condition or features of the room.",Check-in/Check-out,Positive,"""Using the phone as a room key was a novelty that worked surprisingly well."" (This implies a positive experience with accessing the room, which is part of the check-in process.)"
+381,Negative,Room Quality,Neutral,There is no mention of room quality in this review. The feedback focuses solely on the restaurant manager and meal experience.,Dining,Negative,"""The restaurant manager was condescending when we provided feedback about our meal."""
+382,Positive,Room Quality,Positive,"""The rain shower head in the bathroom was a fantastic and luxurious feature.""",,,
+383,Negative,Room Quality,Negative,"""Our room's proximity to the service elevator meant we heard rattling carts all morning.""",Service,Negative,"""Our room's proximity to the service elevator meant we heard rattling carts all morning."""
+384,Positive,,,,,,
+385,Negative,Room Quality,Negative,"""The room lacked a proper workspace, forcing me to work on the bed.""",Facilities,Negative,"""The room lacked a proper workspace, forcing me to work on the bed."""
+386,Positive,Service,Positive,"""The staff's follow-up after we checked out to ensure we had a good stay was a nice touch.""",,,
+387,Neutral,Dining,Negative,"""The breakfast coffee was terrible.""",,,
+388,Negative,,,,,,
+389,Positive,Room Quality,Neutral,"The review mentions ""quirky and artistic decor,"" which touches on the aesthetic of the room, but doesn't explicitly comment on aspects like cleanliness, maintenance, comfort (bed, furniture), or functionality – all key components of room quality. It focuses solely on the design style.",,,
+390,Negative,,,,,,
+391,Positive,,,,,,
+392,Positive,Dining,Positive,"""The children's menu had some creative and healthy options, which was a pleasant surprise.""",,,
+393,Negative,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the hotel's failure to acknowledge a special occasion.,,,
+394,Positive,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the pool and deck area.,Facilities,Positive,"""The pool was a perfect, refreshing temperature, and the surrounding deck was kept very clean."""
+395,Negative,Room Quality,Neutral,There is no mention of room quality in this review. It focuses solely on the check-in process and staff interaction.,Service,Negative,"""The check-in process felt rushed, and the staff member didn't explain any of the hotel's amenities."""
+396,Neutral,Room Quality,Negative,"""The suite was enormous, but the furniture felt sparse, leaving the space feeling empty and cold.""",Facilities,Negative,"The furniture felt sparse, leaving the space feeling empty and cold. This implies a lack of adequate furnishings within the suite, impacting the overall comfort and feel of the room – relating to the hotel's facilities."
+397,Negative,,,,,,
+398,Positive,,,,,,
+399,Negative,Dining,Negative,"""Finding the hotel's main restaurant closed for a private buyout was an unwelcome surprise and inconvenience.""",,,
+400,Positive,Room Quality,Positive,"While not explicitly mentioning ""Room Quality,"" the statement ""The level of cleanliness throughout the hotel was consistently high"" strongly implies a positive assessment of room quality, as cleanliness is a key component.",,,
+401,Neutral,Room Quality,Neutral,"""The bed was heavenly,"" indicating a positive aspect of room quality. However, ""the constant hum from the minibar was annoying"" points to a negative issue related to functionality and noise within the room.",,,
+402,Positive,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the room service experience (food and server).,Service,Positive,"""Room service was exceptional. The food was delicious, arrived hot, and the server was very professional."""
+403,Positive,Room Quality,Neutral,There is no mention of room quality in this review. The entire focus is on the hotel's location.,,,
+404,Negative,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the gym facilities.,Facilities,Negative,"""The gym was too small for a hotel of this size and was always packed."""
+405,Positive,Service,Positive,"""The staff's personalized service made us feel like valued guests, not just another reservation.""",Value,Positive,"""The staff's personalized service made us feel like valued guests, not just another reservation."" (This implies the guest felt they received value beyond a standard transaction.)"
+406,Negative,Check-in/Check-out,Negative,"""Check-in was a mess. They couldn't find our booking and it took 30 minutes to sort out.""",,,
+407,Positive,Dining,Positive,"""The breakfast buffet had a fantastic waffle station with all the toppings. It was a daily treat.""",,,
+408,Negative,Service,Negative,"""The valet service was careless, leaving our car's driver seat and mirrors in completely different positions.""",,,
+409,Positive,,,,,,
+410,Positive,,,,,,
+411,Negative,Room Quality,Negative,"""Our room overlooked the hotel's noisy air conditioning units. Not the 'garden view' we paid for.""",,,
+412,Positive,Service,Positive,"""The concierge was a true local expert, providing insider tips that made our trip unforgettable.""",,,
+413,Negative,Dining,Negative,"""The food at the lobby cafe was stale and seemed like it had been sitting out all day.""",,,
+414,Negative,Room Quality,Negative,"""The room's air conditioner was faulty, blowing warm air no matter the setting. Maintenance couldn't fix it.""",,,
+415,Positive,Room Quality,Positive,"""the room was always perfect.""",,,
+416,Neutral,Facilities,Negative,"""The pool area is beautiful, but it's completely shaded by noon, making sunbathing impossible.""",,,
+417,Negative,Service,Negative,"The review doesn't directly mention ""service"" but implies a negative impact on the guest experience due to the poorly designed and crashing mobile app, which is likely intended to enhance service.",,,
+418,Positive,Room Quality,Positive,"""The sound insulation between rooms is phenomenal. Complete peace and quiet."" This indicates a high quality of room construction contributing to a peaceful environment.",,,
+419,Negative,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the business center facilities.,Facilities,Negative,"""The business center is just two old computers in a closet. It's not a serious workspace."""
+420,Positive,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the courtyard garden.,,,
+421,Negative,,,,,,
+422,Positive,Facilities,Positive,"""The hotel has a very relaxing, spa-like atmosphere throughout the public areas."" (Public areas are considered part of the facilities.)",,,
+423,Positive,Service,Positive,"""The staff were amazing at handling my child's severe nut allergy, inspiring complete confidence.""",,,
+424,Negative,Room Quality,Neutral,"The review does not mention room quality directly. It focuses solely on the elevator system and its functionality, offering no insight into the condition or features of the guest's room itself.",,,
+425,Negative,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the resort fee and its perceived unfairness regarding unused amenities.,,,
+426,Positive,Room Quality,Positive,"""The curtains, when closed, created a perfect pitch-black environment ideal for sleeping."" (This implies good room quality regarding light blocking and sleep comfort.)",,,
+427,Negative,Service,Negative,"""Checkout was a nightmare of long lines and frazzled staff. A very poor final impression.""",Check-in/Check-out,Negative,"""Checkout was a nightmare of long lines and frazzled staff. A very poor final impression."""
+428,Positive,Room Quality,Positive,"""The in-room coffee machine was a high-end model that brewed an excellent cup."" (This implies a positive aspect of the room's amenities and therefore, quality.)",,,
+429,Positive,Service,Positive,"""The security staff were always polite and professional, greeting guests as they entered and exited.""",,,
+430,Positive,,,,,,
+431,Negative,Room Quality,Negative,"""The mattress was lumpy and provided very uneven support. It's clearly past its replacement date.""",,,
+432,Positive,,,,,,
+433,Negative,Room Quality,Neutral,"The review does not mention room quality directly. It discusses in-room dining, which is a service *within* the room but doesn't comment on the room itself (size, cleanliness, amenities, etc.).",Value,Negative,"""The in-room dining options were limited and very expensive for the portion sizes."""
+434,Positive,,,,,,
+435,Neutral,Room Quality,Negative,"""The interior feels worn and tired.""",,,
+436,Positive,,,,,,
+437,Negative,Room Quality,Negative,"""Our room had a strange, damp smell, and we noticed some mildew in the bathroom shower.""",,,
+438,Neutral,Room Quality,Neutral,"The review doesn't directly mention room quality. It discusses turndown service timing, which is a related amenity but not a direct assessment of the room itself.",Service,Neutral,"""Turndown service was performed at a different time each night, which was a bit unpredictable."""
+439,Positive,,,,,,
+440,Positive,Room Quality,Neutral,"The review mentions ""The shower had excellent water pressure and plenty of hot water."" While this relates to a feature *within* the room, it doesn't offer an overall assessment of room quality. It focuses solely on the shower experience.",,,
+441,Neutral,Room Quality,Neutral,"The review doesn't directly mention room quality. It focuses on the hotel’s décor (""modern art"") rather than aspects of the room itself (cleanliness, comfort, amenities, etc.).",Dining,Neutral,There is no mention of dining in this review. It focuses solely on the hotel's art collection.
+442,Negative,Service,Negative,"""The service felt very impersonal. Staff were following a script rather than engaging with guests.""",,,
+443,Negative,Check-in/Check-out,Negative,"""Mobile check-in was a waste of time, as it didn't speed up the process at all.""",,,
+444,Positive,Room Quality,Positive,"""The bed was the highlight of the room - incredibly plush and comfortable.""",,,
+445,Negative,Room Quality,Neutral,There is no mention of Room Quality in this review. The feedback focuses solely on the restaurant and its food.,Dining,Negative,"""The restaurant's menu sounded better than it tasted. The execution was lacking."""
+446,Positive,Room Quality,Neutral,The review does not mention room quality at all. It focuses solely on the spa facilities.,Facilities,Positive,"""The spa's sauna and steam room were clean and well-maintained, providing a great way to relax."""
+447,Neutral,,,,,,
+448,Negative,Room Quality,Negative,"""The room's wardrobe was barely large enough for one person's clothes, let alone two.""",,,
+449,Positive,,,,,,
+450,Negative,Facilities,Negative,"""The swimming pool was smaller than expected and felt more like a large bathtub.""",,,
+451,Positive,Service,Positive,"""The staff's genuine smiles and positive attitudes were infectious and made for a pleasant stay.""",,,
+452,Negative,,,,,,
+453,Positive,Room Quality,Neutral,"The review does not mention ""Room Quality"" directly. It focuses solely on the quality of room service and its food.",Service,Positive,"""Room service was consistently fast, professional, and the food was always of high quality."""
+454,Positive,,,,,,
+455,Negative,Room Quality,Negative,The Wi-Fi was so weak in our room that we had to sit in the hallway to get a signal. This implies a deficiency impacting the usability and quality of the room.,,,
+456,Negative,Service,Negative,"""The concierge booked us on a terrible city tour. It felt like they'd never experienced it themselves.""",,,
+457,Neutral,Dining,Negative,"""The breakfast buffet was adequate but uninspired. The same lukewarm scrambled eggs every morning.""",,,
+458,Negative,Value,Negative,"""This hotel represents poor value. It's a three-star experience at a five-star price.""",,,
+459,Negative,Room Quality,Negative,"""The bathroom was clean, but the shower curtain was moldy at the bottom.""",,,
+460,Negative,,,,,,
+461,Positive,Service,Positive,"""Check-in was a pleasure. The staff member was warm, welcoming, and efficient.""",Check-in/Check-out,Positive,"""Check-in was a pleasure. The staff member was warm, welcoming, and efficient."""
+462,Negative,Room Quality,Negative,"The review doesn't directly mention room quality regarding the physical state of the room itself. However, it references ""room service,"" implying a negative experience related to in-room dining which reflects poorly on the overall hotel experience and could be associated with room quality expectations.",Service,Negative,"""My room service burger was cold and the fries were limp."""
+463,Positive,Facilities,Positive,"""The fitness center is open 24/7, which was perfect for my early morning workout schedule.""",,,
+464,Positive,Room Quality,Positive,"The review doesn't explicitly mention ""Room Quality"" but describes the hotel’s “opulent, old-world decor,” implying a high standard of room aesthetics and design. This suggests a positive perception of the rooms themselves.",,,
+465,Negative,Room Quality,Negative,"The review doesn't directly describe the room itself, but the inability to get a different pillow type implies dissatisfaction with the existing bedding and therefore negatively impacts perceived room quality.",,,
+466,Neutral,,,,,,
+467,Positive,Room Quality,Positive,"""The room's climate controls were intuitive and worked perfectly.""",,,
+468,Negative,Room Quality,Negative,"""Housekeeping missed cleaning our room one day...""",,,
+469,Positive,Room Quality,Neutral,There is no mention of room quality in this review. It focuses solely on the poolside staff and their service.,Service,Positive,"""The poolside staff were proactive in offering cold towels and water, which was a great touch on a hot day."""
+470,Negative,,,,,,
+471,Positive,Room Quality,Neutral,"The review mentions ""leave the keys in the room,"" which implies a room exists and is accessible, but doesn't offer any specific details or opinions on its quality (cleanliness, amenities, condition, etc.). It’s simply stating a checkout procedure.",Check-in/Check-out,Positive,"""Checkout was incredibly fast and easy, with the option to simply leave the keys in the room."""
+472,Negative,Value,Negative,"""The minibar prices are beyond ridiculous. They create a negative feeling of being ripped off.""",,,
+473,Positive,Room Quality,Positive,"""The family room setup with bunk beds was perfect for our children.""",,,
+474,Negative,Service,Negative,"""The staff seemed disengaged and unhappy. It was rare to see anyone smile.""",,,
+475,Positive,Room Quality,Neutral,"The review mentions a ""conference room"" being modern and comfortable, but it doesn't discuss the quality of guest rooms or standard hotel accommodations. Therefore, there is no direct feedback regarding general ""Room Quality.""",,,
+476,Negative,,,,,,
+477,Positive,Dining,Positive,"""The restaurant's commitment to seasonal ingredients was reflected in a vibrant and delicious menu.""",,,
+478,Negative,Room Quality,Negative,"""The room design was awkward, with the TV placed at a strange angle to the bed.""",,,
+479,Positive,Value,Positive,"""The self-parking option in the hotel garage was convenient and reasonably priced.""",,,
+480,Neutral,Room Quality,Neutral,"The review mentions the room's lights and thermostat being controlled by an app, describing it as a ""cool and functional gimmick."" This doesn't directly comment on the inherent quality of the room itself, but rather the technology within it.",,,
+481,Negative,Dining,Negative,"""The restaurant hostess seated us at a poor table right by the kitchen door, despite the restaurant being half-empty.""",,,
+482,Positive,Room Quality,Positive,"The review mentions a ""bathroom's magnifying mirror with a built-in light"" which is considered a ""very useful and appreciated feature."" While not explicitly stating overall room quality, the positive comment about a bathroom amenity implies a satisfactory level of room quality.",,,
+483,Negative,Room Quality,Negative,"""Our room was located directly opposite the housekeeping supply closet, so it was very noisy in the mornings.""",,,
+484,Positive,,,,,,
+485,Negative,Room Quality,Negative,"""The 'workstation' was just a tiny shelf. It was impossible to use a laptop and a mouse comfortably.""",,,
+486,Positive,Room Quality,Neutral,There is no mention of room quality in this review. The entire focus is on the staff's attitude and service.,Service,Positive,"""The staff's attitude was exemplary. They consistently went above and beyond to ensure our comfort."""
+487,Negative,Dining,Negative,"""The coffee at breakfast was thin and flavorless. A real letdown for coffee lovers.""",,,
+488,Negative,Room Quality,Negative,"""even in our room"" - The reviewer indicates a negative aspect of the room quality due to a lingering smell, specifically mentioning it persisted even within their assigned room.",Service,Neutral,There is no mention of service in this review. It focuses solely on the condition of the room and a related odor.
+489,Positive,,,,,,
+490,Negative,,,,,,
+491,Positive,Service,Positive,"""The security team was a professional and reassuring presence throughout the property.""",,,
+492,Negative,Room Quality,Neutral,There is no mention of room quality in this review. The entire review focuses on the children's menu and its unhealthy options.,Dining,Negative,"""The children's menu lacked any healthy options. It was all deep-fried."""
+493,Positive,Dining,Positive,"""The hotel provided a complimentary dessert in the restaurant for our anniversary, which was a kind gesture.""",,,
+494,Negative,Facilities,Negative,"""The pool was advertised as heated, but it was ice cold and unusable.""",,,
+495,Negative,Room Quality,Neutral,There is no mention of room quality in this review. It focuses solely on the check-in experience and staff interaction.,Service,Negative,"""The check-in was perfunctory. The staff member barely made eye contact."""
+496,Neutral,,,,,,
+497,Negative,,,,,,
+498,Positive,Room Quality,Neutral,There is no mention of room quality in this review. The reviewer only comments on the helpfulness of the hotel's city guide.,Service,Neutral,"The review mentions a ""city guide on their website,"" which could be considered part of the hotel's service offerings, but it doesn’t directly comment on staff interaction or personalized assistance. It simply notes the usefulness of a resource provided."
+499,Negative,Dining,Negative,"""We were greatly inconvenienced by the main restaurant being closed for a private event with no advance warning.""",,,
+500,Positive,Room Quality,Neutral,"The review doesn't directly mention ""Room Quality."" It focuses solely on the overall cleanliness of the hotel, without specifying if this applies to rooms specifically.",,,
