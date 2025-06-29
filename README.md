@@ -78,7 +78,3 @@ Sl No, Feedback
 
 **Output format:**
 Review number, Overall sentiment, Service 1, Sentiment 1, Review 1, Service 2, Sentiment 2, Review 2,...
-
-**Sample Input 1**
-```csv
-1,"The room was immaculate and the view was breathtaking. However, the check-in process was disappointingly slow."
